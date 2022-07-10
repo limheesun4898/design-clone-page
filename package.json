@@ -41,5 +41,6 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "prettier-eslint": "^15.0.1"
-  }
+  },
+  "homepage": "https://limheesun4898.github.io/design-clone-page"
 }
