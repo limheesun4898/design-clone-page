@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "https://limheesun4898.github.io/design-clone-page/static/css/main.dfac9dbf.css",
-    "main.js": "https://limheesun4898.github.io/design-clone-page/static/js/main.e3b415ea.js",
+    "main.css": "https://limheesun4898.github.io/design-clone-page/static/css/main.91098b47.css",
+    "main.js": "https://limheesun4898.github.io/design-clone-page/static/js/main.89b724c8.js",
     "static/media/main_bg.png": "https://limheesun4898.github.io/design-clone-page/static/media/main_bg.c0426511dceec26f376d.png",
     "index.html": "https://limheesun4898.github.io/design-clone-page/index.html",
-    "main.dfac9dbf.css.map": "https://limheesun4898.github.io/design-clone-page/static/css/main.dfac9dbf.css.map",
-    "main.e3b415ea.js.map": "https://limheesun4898.github.io/design-clone-page/static/js/main.e3b415ea.js.map"
+    "main.91098b47.css.map": "https://limheesun4898.github.io/design-clone-page/static/css/main.91098b47.css.map",
+    "main.89b724c8.js.map": "https://limheesun4898.github.io/design-clone-page/static/js/main.89b724c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfac9dbf.css",
-    "static/js/main.e3b415ea.js"
+    "static/css/main.91098b47.css",
+    "static/js/main.89b724c8.js"
   ]
 }
