@@ -7,8 +7,9 @@ module.exports = {
     quotes: 'off',
     semi: 'off',
     'max-len': 'off',
+    'import/no-duplicates': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
-    'import/no-duplicates': 'off',
+    'react/jsx-one-expression-per-line': 'off',
   },
 };

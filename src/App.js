@@ -7,8 +7,7 @@ function App() {
     <Router>
       <main>
         <Routes>
-          {/* <Route path="/" element={<Introduction />} /> */}
-          <Route path="/introduction" element={<Introduction />} />
+          <Route path="/" element={<Introduction />} />
         </Routes>
       </main>
     </Router>

@@ -1,44 +1,23 @@
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
 import TypeIt from "typeit-react";
+import moment from "moment";
 import MainBg from "../assets/images/main_bg.png";
 import "./introduction.css";
 
 function Introduction() {
-  const [instanceTest, setInstanceTest] = useState(null);
-
-  useEffect(() => {
-    if (instanceTest) {
-      console.log(instanceTest.is("completed"));
-    }
-  }, [instanceTest]);
-
+  const todayFormat = moment().format("YYYY-MM-DD");
   return (
     <div className="intro-wrapper">
       <img className="main-bg" src={MainBg} alt="main_bg" />
       <div className="intro-text-wrapper">
         <TypeIt
           options={{
-            strings: [
-              "> Title: DECOMPRESSED PRISM",
-              "> Author: SALVATORE VITALE",
-              // "> Orbit_E, MBAL – Musée des Beaux Arts Le Locle",
-              // "> Curators: Nathalie Herschdorfer and Severine Cattin",
-              // "> Digital Creative and Art direction: Panama Papers Office",
-              // "> Programming & Development: Laura Piccolo",
-              // "> Online: 2022 05 20 - 2022 09 25",
-            ],
-            speed: 5,
+            speed: 1,
             cursor: false,
           }}
-          getAfterInit={(instance) => {
-            setInstanceTest(instance);
-            return instance;
-          }}
-        />
-        {/* <div className="intro-text-box">
-            <div>[2022-07-09]</div>
+        >
+          <div className="intro-text-box">
+            <div>[{todayFormat}]</div>
             <div>
               &gt; Title: DECOMPRESSED PRISM
               <br />
@@ -54,9 +33,9 @@ function Introduction() {
               <br />
               &gt; Online: 2022 05 20 - 2022 09 25
             </div>
-          </div> */}
-        {/* <div className="intro-text-box">
-            <div>[2022-07-09]</div>
+          </div>
+          <div className="intro-text-box">
+            <div>[{todayFormat}]</div>
             <div>
               &gt; Description:
               <p />
@@ -80,84 +59,9 @@ function Introduction() {
               experience of its own, Salvatore Vitale&apos;s work combines
               fictional and documentary elements, video archives, text, sound
               designs and real data.
-              <p />
-              Decompressed Prism reveals the paradoxes behind the systemic logic
-              of ubiquitous surveillance through automated security tools.
-              Exploring different uses of control technologies in Poland,
-              Slovakia, Switzerland and Italy, the artist questions how these
-              technologies shape our relationship to the world and to ourselves
-              as human beings. Indeed, Salvatore Vitale explores the notion of
-              the body evolving between digitalisation and reality, and the
-              transformation of the latter into a product controlled by
-              technology. Drawing on contemporary philosophical and sociological
-              texts, the artist imagines a different reality in which the
-              visitor is invited to question the possibility of
-              counter-narratives. The work also demonstrates the disturbing
-              normalisation of security and rhizomatic surveillance, which
-              should rather give rise to a sense of concern about its impact on
-              human behaviour.
-              <p />
-              Born in Palermo, Italy, Salvatore Vitale (1986) lives and works in
-              Zurich. For several years, he has been interested in the
-              development and complexity of modern societies. As a visual
-              artist, editor and teacher, his work includes multiple forms of
-              expression: from photography to video, to writing and exhibition
-              design. He is an award-winning artist, lecturer in the Transmedia
-              Storytelling programme at the Lucerne University of Applied
-              Sciences and Arts, and co-founder of the international magazine
-              YET. His work is regularly exhibited in Switzerland and abroad,
-              including Holland, Germany, China, Slovenia and Japan.
             </div>
-          </div> */}
-        {/* </TypeIt> */}
-        {/* <div className="intro-text-box">
-          <div>[2022-07-09]</div> */}
-        {/* <TypeIt
-            options={{
-              strings: [
-                "> Title: DECOMPRESSED PRISM",
-                "> Author: SALVATORE VITALE",
-                "> Orbit_E, MBAL – Musée des Beaux Arts Le Locle",
-                "> Curators: Nathalie Herschdorfer and Severine Cattin",
-                "> Digital Creative and Art direction: Panama Papers Office",
-                "> Programming & Development: Laura Piccolo",
-                "> Online: 2022 05 20 - 2022 09 25",
-              ],
-              speed: 5,
-              cursor: false,
-            }}
-          /> */}
-        {/* <TypeIt
-            options={{
-              strings: [
-                "> Title: DECOMPRESSED PRISM",
-                "> Author: SALVATORE VITALE",
-                "> Orbit_E, MBAL – Musée des Beaux Arts Le Locle",
-                "> Curators: Nathalie Herschdorfer and Severine Cattin",
-                "> Digital Creative and Art direction: Panama Papers Office",
-                "> Programming & Development: Laura Piccolo",
-                "> Online: 2022 05 20 - 2022 09 25",
-              ],
-              speed: 5,
-              cursor: false,
-            }}
-            getBeforeInit={(instance) => {
-              instance
-                .type(
-                  "하늘 위에 떠있는<br>별을 클릭해보세요.<br>하나하나의 소중한 사연이<br>담겨 있습니다.",
-                  { speed: 5 }
-                )
-                .go();
-
-              return instance;
-            }}
-            getAfterInit={(instance) => {
-              instance.is();
-
-              return instance;
-            }}
-          /> */}
-        {/* </div> */}
+          </div>
+        </TypeIt>
       </div>
     </div>
   );
