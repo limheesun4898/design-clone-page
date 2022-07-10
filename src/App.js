@@ -4,10 +4,10 @@ import Introduction from './pages/Introduction';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <main>
         <Routes>
-          <Route path="/design-clone-page" element={<Introduction />} />
+          <Route path="/" element={<Introduction />} />
         </Routes>
       </main>
     </Router>
