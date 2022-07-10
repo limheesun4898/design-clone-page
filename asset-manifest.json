@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/design-clone-page/static/css/main.dfac9dbf.css",
+    "main.js": "/design-clone-page/static/js/main.2f10f86c.js",
+    "static/media/main_bg.png": "/design-clone-page/static/media/main_bg.c0426511dceec26f376d.png",
+    "index.html": "/design-clone-page/index.html",
+    "main.dfac9dbf.css.map": "/design-clone-page/static/css/main.dfac9dbf.css.map",
+    "main.2f10f86c.js.map": "/design-clone-page/static/js/main.2f10f86c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfac9dbf.css",
+    "static/js/main.2f10f86c.js"
+  ]
+}
