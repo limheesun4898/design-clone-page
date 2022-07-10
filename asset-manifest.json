@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/design-clone-page/static/css/main.dfac9dbf.css",
-    "main.js": "/design-clone-page/static/js/main.6a4ac2f1.js",
-    "static/media/main_bg.png": "/design-clone-page/static/media/main_bg.c0426511dceec26f376d.png",
-    "index.html": "/design-clone-page/index.html",
-    "main.dfac9dbf.css.map": "/design-clone-page/static/css/main.dfac9dbf.css.map",
-    "main.6a4ac2f1.js.map": "/design-clone-page/static/js/main.6a4ac2f1.js.map"
+    "main.css": "https://limheesun4898.github.io/design-clone-page/static/css/main.dfac9dbf.css",
+    "main.js": "https://limheesun4898.github.io/design-clone-page/static/js/main.e3b415ea.js",
+    "static/media/main_bg.png": "https://limheesun4898.github.io/design-clone-page/static/media/main_bg.c0426511dceec26f376d.png",
+    "index.html": "https://limheesun4898.github.io/design-clone-page/index.html",
+    "main.dfac9dbf.css.map": "https://limheesun4898.github.io/design-clone-page/static/css/main.dfac9dbf.css.map",
+    "main.e3b415ea.js.map": "https://limheesun4898.github.io/design-clone-page/static/js/main.e3b415ea.js.map"
   },
   "entrypoints": [
     "static/css/main.dfac9dbf.css",
-    "static/js/main.6a4ac2f1.js"
+    "static/js/main.e3b415ea.js"
   ]
 }
