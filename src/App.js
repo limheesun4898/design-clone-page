@@ -8,7 +8,7 @@ function App() {
     <Router>
       <main>
         <Routes>
-          <Route path="/" element={<Introduction />} />
+          <Route path="/design-clone-page" element={<Introduction />} />
         </Routes>
       </main>
     </Router>
