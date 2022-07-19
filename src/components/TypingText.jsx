@@ -8,52 +8,34 @@ const TypingText = function () {
   return (
     <TypeIt
       options={{
-        speed: 1,
+        speed: 5,
         cursor: false,
       }}
     >
       <div className="intro-text-box">
         <div>[{todayFormat}]</div>
         <div>
-          &gt; Title: DECOMPRESSED PRISM
-          <br />
-          &gt; Author: SALVATORE VITALE
-          <br />
-          &gt; Orbit_E, MBAL – Musée des Beaux Arts Le Locle
-          <br />
-          &gt; Curators: Nathalie Herschdorfer and Severine Cattin
-          <br />
-          &gt; Digital Creative and Art direction: Panama Papers Office
-          <br />
-          &gt; Programming & Development: Laura Piccolo
-          <br />
-          &gt; Online: 2022 05 20 - 2022 09 25
-        </div>
-      </div>
-      <div className="intro-text-box">
-        <div>[{todayFormat}]</div>
-        <div>
-          &gt; Description:
+          &gt; Korea has a beautiful nature and a wealth of priceless cultural
+          heritage as befits its five thousand year history and traditional
+          culture.
           <p />
-          Decompressed Prism is a new step in Salvatore Vitale&apos;s artistic
-          reflection on technology. The artist continues the experimental
-          approach of this installation, initially conceived in a physical space
-          at Fondazione Modena Arti Visive in Modena, by investing the Orbit_e,
-          the digital exhibition space that the MBAL launched in 2022. Here he
-          created an original and interactive work that echoes the initial
-          installation.
+          &gt; Korea’s cultural heritage includes tangible and intangible
+          cultural heritage, monuments and folklore cultural materials of
+          historic, artistic, academic and scenic value as national, ethnic or
+          world heritage formulated artificially or naturally.
           <p />
-          In the digital space, Decompressed Prism takes the form of a
-          non-linear narrative situated at the crossroads of philosophy and
-          technology, in which the artist endeavours to fragment and then
-          reassemble the initial storyline into several chapters. Conceived as
-          an experience for the visitor, the work evolves in a playful space and
-          touches on subjects of reflection important to the artist, such as
-          control and power dynamics, empathy, social realism, space and body.
-          Divided into four parts, each offering in a distinct digital space, a
-          specific theme and an interactive experience of its own, Salvatore
-          Vitale&apos;s work combines fictional and documentary elements, video
-          archives, text, sound designs and real data.
+          &gt; Throughout the years, Korea has cultivated its own unique
+          cultural heritage in which the emotions and culture of its people are
+          ingrained.
+          <p />
+          &gt; Its cultural heritage also has an array of attributes ranging
+          from artistic sensibility to scientific sense.
+          <p />
+          &gt; The Cultural Heritage Administration (CHA) is continuing to
+          provide people with more opportunities to appreciate the value of its
+          cultural heritage and to make every effort to preserve its precious
+          cultural heritage which is not only the quintessence of human culture
+          and nature but also the source of life.
         </div>
       </div>
     </TypeIt>
