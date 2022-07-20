@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "http:localhost:3000/design-clone-page/static/css/main.f60cc983.css",
-    "main.js": "http:localhost:3000/design-clone-page/static/js/main.d2ff0869.js",
-    "index.html": "http:localhost:3000/design-clone-page/index.html",
-    "main.f60cc983.css.map": "http:localhost:3000/design-clone-page/static/css/main.f60cc983.css.map",
-    "main.d2ff0869.js.map": "http:localhost:3000/design-clone-page/static/js/main.d2ff0869.js.map"
+    "main.css": "/design-clone-page/static/css/main.f60cc983.css",
+    "main.js": "/design-clone-page/static/js/main.1b60a15a.js",
+    "index.html": "/design-clone-page/index.html",
+    "main.f60cc983.css.map": "/design-clone-page/static/css/main.f60cc983.css.map",
+    "main.1b60a15a.js.map": "/design-clone-page/static/js/main.1b60a15a.js.map"
   },
   "entrypoints": [
     "static/css/main.f60cc983.css",
-    "static/js/main.d2ff0869.js"
+    "static/js/main.1b60a15a.js"
   ]
 }
